@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: sample-api
-        image: your-dockerhub-user/sample-api:latest
+        image: nginx:latest
         ports:
         - containerPort: 80
